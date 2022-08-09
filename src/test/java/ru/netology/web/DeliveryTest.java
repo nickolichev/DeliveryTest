@@ -12,7 +12,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 import org.openqa.selenium.Keys;
-// ******
+
 public class DeliveryTest {
   LocalDate date = LocalDate.now();
   LocalDate correctDate = date.plusDays(3);
